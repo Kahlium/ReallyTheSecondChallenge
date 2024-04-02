@@ -16,8 +16,7 @@ body
 
 
 /* ||COMMENTS AND STUFF||
-*
-*
+*Thankyou to w3 schools for having answers to my questions
 */
 
 header
@@ -64,7 +63,8 @@ h2
 .home-text
 {
     display: flex;
-    justify-content:end
+    position: relative;
+    justify-content:end;
 }
 
 .home:hover
@@ -76,35 +76,36 @@ h2
 
 .work
 {
+    padding: 4%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20%;
     max-width: 2000x;
     min-width: auto;
+    text-align: center;
 }
 
 .work img
 {
     max-width: 100%;
     height: auto;
-    
+    border: 8px solid rgb(248, 193, 73);
 }
 
 .work img:hover
 {
+    background-color: linear-gradient(rgb(16, 0, 247), rgb(17, 170, 12));
     z-index: 2;
-    background-color: linear-gradient(white, black);
     opacity: 80%;
 }
 
 .first-work-image
 {
-    max-width: 100%;
 }
 
 .other-work-images
 {
-    max-width: 50%;
+    display: flex;
+    
 }
 
 nav ul
@@ -119,6 +120,7 @@ nav ul
     display: flex;
     flex-direction: row;
     color: var(--accentColor);
+    justify-content: space-between;
 }
 
 /* ||FIGURE THIS OUT LATER||
