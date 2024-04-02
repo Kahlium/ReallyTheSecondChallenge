@@ -2,13 +2,31 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header{
+body
+{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
     align-items: center;
-    padding: 1%;
+    padding: 1.3%;
     background-color: #e0453a;
     color: #fff;
+}
+
+h1
+{
+
+}
+
+h2
+{
+
 }
 
 .products {
