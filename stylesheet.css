@@ -54,9 +54,16 @@ h2
 
 .home
 {
-    padding: 2%;
+    background-image: url(https://pbs.twimg.com/media/FOzquG2X0AQuSG0?format=jpg&name=medium);
+    background-repeat: no-repeat;
+    background-position-y: -160px;
+    background-size: cover;
+    height: 200px;
+}
+
+.home-text
+{
     display: flex;
-    background-color: #fcbd75;
     justify-content: flex-end;
 }
 
@@ -69,11 +76,20 @@ h2
     min-width: auto;
 }
 
-img
+.work img
 {
-    flex-direction: column;
     max-width: 100%;
     height: auto;
+}
+
+.first-work-image
+{
+    max-width: 100%;
+}
+
+.other-work-images
+{
+    max-width: 50%;
 }
 
 .work:hover
