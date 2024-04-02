@@ -1,7 +1,3 @@
-:root
-{
-    --accentColor: #e0453a;
-}
 
 *
 {
@@ -14,12 +10,6 @@ body
     display: flex;
     flex-direction: column;
 }
-
-
-/* ||COMMENTS AND STUFF||
-*Thankyou to w3 schools for having answers to my questions
-*Gotta experiment with using adobe XD in conjuction later
-*/
 
 header
 {
