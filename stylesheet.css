@@ -18,6 +18,7 @@ body
 
 /* ||COMMENTS AND STUFF||
 *Thankyou to w3 schools for having answers to my questions
+*Gotta experiment with using adobe XD in conjuction later
 */
 
 header
@@ -127,6 +128,14 @@ nav ul
     min-width: 280px;
 }
 
+.about
+{
+    text-align: center;
+    padding: 200px 100px;
+    background-color: antiquewhite;
+
+}
+
 .contact
 {
     font-size: 20px;
@@ -136,6 +145,11 @@ nav ul
     background-color: #e0453a;
     color: #fff;
     line-height: 40px;
+}
+
+.contact a::after
+{
+    content: "🐲"
 }
 
 /* ||FIGURE THIS OUT LATER||
