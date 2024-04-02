@@ -6,6 +6,7 @@
 *
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
 
 body
@@ -31,13 +32,14 @@ header
     background-color: #e0453a;
     color: #fff;
     position: fixed;
+    flex-wrap: wrap;
 }
 
 main
 {
     display: flexbox;
     padding-top: 100px;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 h1
@@ -48,11 +50,16 @@ h1
 
 h2
 {
-    font-size: 120%;
+    font-size: 200%;
+}
+
+h4{
+    font-size: 100%;
 }
 
 .home
 {
+    border-style: solid;
     background-image: url(https://pbs.twimg.com/media/FOzquG2X0AQuSG0?format=jpg&name=medium);
     background-repeat: no-repeat;
     background-position-y: -160px;
@@ -64,7 +71,7 @@ h2
 {
     display: flex;
     position: relative;
-    justify-content:end;
+    justify-content:end;    
 }
 
 .home:hover
@@ -76,6 +83,7 @@ h2
 
 .work
 {
+    border-style: solid;
     padding: 4%;
     display: flex;
     flex-wrap: wrap;
@@ -89,23 +97,27 @@ h2
     max-width: 100%;
     height: auto;
     border: 8px solid rgb(248, 193, 73);
+    opacity: 80%;
 }
 
 .work img:hover
 {
-    background-color: linear-gradient(rgb(16, 0, 247), rgb(17, 170, 12));
     z-index: 2;
-    opacity: 80%;
+    opacity: 100%;
 }
 
-.first-work-image
-{
-}
+.text-block {
+    position: relative;
+    top: -120px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 200px;
+  }
 
 .other-work-images
 {
     display: flex;
-    
 }
 
 nav ul
@@ -115,12 +127,15 @@ nav ul
     min-width: 280px;
 }
 
-.contact a
+.contact
 {
-    display: flex;
-    flex-direction: row;
-    color: var(--accentColor);
-    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;    
+    padding: 30px;
+    background-color: #e0453a;
+    color: #fff;
+    line-height: 40px;
 }
 
 /* ||FIGURE THIS OUT LATER||
