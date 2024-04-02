@@ -28,7 +28,7 @@ header
     width: 100%;
     justify-content:space-between;
     align-items: center;
-    padding: 2%;
+    padding: 30px;
     background-color: #e0453a;
     color: #fff;
     position: fixed;
@@ -37,9 +37,8 @@ header
 main
 {
     display: flexbox;
-    padding-top: 10%;
+    padding-top: 100px;
     font-size: 32px;
-    align-items: center;
 }
 
 h1
@@ -53,25 +52,21 @@ h2
     font-size: 120%;
 }
 
+.home
+{
+    padding: 2%;
+    display: flex;
+    background-color: #fcbd75;
+    justify-content: flex-end;
+}
 
 .work
 {
     display: flex;
     flex-wrap: wrap;
     padding-left: 20%;
-    max-width: 800px;
+    max-width: 2000x;
     min-width: auto;
-}
-
-.work h2
-{
-    font-size: 100%;
-}
-
-.work ul::before
-{
-    content: 'Work';
-
 }
 
 img
@@ -81,7 +76,7 @@ img
     height: auto;
 }
 
-.work image:hover
+.work:hover
 {
     background: linear-gradient(white, black);
 }
@@ -91,6 +86,13 @@ nav ul
     display: flex;
     justify-content: space-between;
     min-width: 280px;
+}
+
+.contact a
+{
+    display: flex;
+    flex-direction: row;
+    color: var(--accentColor);
 }
 
 /* ||FIGURE THIS OUT LATER||
