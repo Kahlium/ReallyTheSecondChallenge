@@ -25,6 +25,10 @@ header
     position: fixed;
     flex-wrap: wrap;
 }
+.headerTitle
+{
+    margin-left: 20px;
+}
 
 main
 {
@@ -36,16 +40,21 @@ main
 h1
 {
     font-size: 200%;
-    margin-left: 20px;
 }
 
 h2
 {
-    font-size: 200%;
+    font-size: 150%;
+    margin: 30px;
 }
 
 h4{
     font-size: 100%;
+}
+
+.contentLink
+{
+  color: rgb(0, 0, 0);
 }
 
 .home
